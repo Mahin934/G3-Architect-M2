@@ -23,6 +23,7 @@
     width: 1920px;
     height: 1322px;
     margin: 0 auto;
+    margin-bottom: 85px;
 }
 
 .list-decoration{
@@ -78,6 +79,40 @@
     font-weight: 400;
 }
 
+main{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.First-Page-design {
+    align-items: center;
+    gap: 73px;
+    margin-bottom: 130px;
+}
+
+.First-page-data-container{
+    width: 537px;
+    height: 304px;
+}
+
+.First-page-heading-color-D3{
+    color: rgb(114, 114, 114);
+}
+
+.First-page-heading-color-FF9{
+    color: rgb(255, 144, 14);
+}
+
+.First-page-pera{
+    margin-bottom: 32px;
+}
+
 
 
 @media screen and (max-width: 576px) {
@@ -85,10 +120,7 @@
         flex-direction: column;
     }
 
-    .banner-part> img{
-        width: 100%;
-    }
-    .banner-text-pert, .Pera-decoration{
+    img{
         width: 100%;
     }
 }
