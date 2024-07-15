@@ -116,11 +116,28 @@ main{
 
 
 @media screen and (max-width: 576px) {
-    .nav-bar, .banner-text-pert, .nav-list{
+    .nav-bar, 
+    .banner-text-pert, 
+    .nav-list,
+    .First-Page-design,
+    .First-page-data-container
+    {
         flex-direction: column;
     }
 
+    .image-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     img{
+        width: 100%;
+    }
+    .full-content-header, 
+    .nav-bar, 
+    .banner-part, 
+    .banner-text-pert,
+    main
+    {
         width: 100%;
     }
 }
