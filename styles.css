@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-text {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+  
+.nav-heading{
+    color: rgb(19, 19, 19);
+    font-size: 45px;
+    font-weight: 700;  
+}
+
+
+.flex-primary{
+    display: flex;
+}
+
+.full-content-header{
+    background: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+    height: 1322px;
+    margin: 0 auto;
+}
+
+.list-decoration{
+    list-style: none;
+    margin-left: 30px;
+}
+
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hyper-link{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 1.16rem;
+    font-weight: 500;
+}
+
+.nav-bar, .banner-part{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner-text-pert{
+    width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 21px 25px;
+    border: none;
+    
+}
+
+.heading-content-edit{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.Pera-decoration{
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .nav-bar, .banner-text-pert, .nav-list{
+        flex-direction: column;
+    }
+
+    .banner-part> img{
+        width: 100%;
+    }
+    .banner-text-pert, .Pera-decoration{
+        width: 100%;
+    }
+}
+
+
+
